@@ -7,3 +7,9 @@ exports.config = {
         'database': 'gaveteiro'
     }
 };
+
+connection.connect(function (err) {
+  if (err) return console.log(err);
+  console.log('conectou!');
+  addRows(connection);
+})
