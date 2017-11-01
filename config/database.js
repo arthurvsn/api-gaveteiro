@@ -1,8 +1,9 @@
 exports.config = {
     'default': {
         'host': 'localhost',
+        'port': '3306',
         'user': 'root',
         'password': 'root',
-        'database': 'blog'
+        'database': 'gaveteiro'
     }
 };
